@@ -25,5 +25,5 @@ const makeListItemElement = ingredients => {
    })
 }
  const elements=makeListItemElement(ingredients)
-// console.log(elements);
+
 ingredientsList.append(...elements);
